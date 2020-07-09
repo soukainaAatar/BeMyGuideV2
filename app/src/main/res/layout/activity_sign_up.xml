@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/signUpText"
+        android:layout_width="395dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/signup"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logoU"
+            android:layout_width="297dp"
+            android:layout_height="213dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/glasses" />
+
+        <TextView
+            android:id="@+id/error_SU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text=""
+            android:textColor="#ff0000" />
+
+        <EditText
+            android:id="@+id/nomText_SU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Nom"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/prenomText_SU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Prénom"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emailEditText_SU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/passwordEditText_SU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/singUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/signup" />
+
+        <TextView
+            android:id="@+id/goLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:gravity="center"
+            android:text="vous avez déjà un compte ? : connectez-vous !" />
+    </LinearLayout>
+
+</LinearLayout>

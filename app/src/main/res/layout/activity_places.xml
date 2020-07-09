@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:orientation="vertical" >
+<TextView
+    android:id="@+id/placesText"
+    android:layout_width="395dp"
+    android:layout_height="39dp"
+    android:ems="10"
+    android:gravity="center"
+    android:text="@string/places"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+<ListView
+    android:id="@+id/places_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    >
+</ListView>
+</LinearLayout>
